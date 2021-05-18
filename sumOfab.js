@@ -1,3 +1,3 @@
-let a = +prompt('Số thứ nhất a = ');
-let b = +prompt('Số thứ hai b = ');
-document.write('Tổng của hai số là: ' + (a+b));
+let a = +prompt('So thu nhat a = ');
+let b = +prompt('So thu hai b = ');
+document.write('Tong cua hai so la: ' + (a+b));
