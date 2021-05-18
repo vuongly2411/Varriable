@@ -1,5 +1,5 @@
-let a = +prompt('So tien vay: ');
-let r = +prompt('Lai suat: ');
-let n = +prompt('So nam vay tien: ');
-tienno = a * (1+ r*0.01*n);
+let money = +prompt('So tien vay: ');
+let rate = +prompt('Lai suat: ');
+let time = +prompt('So nam vay tien: ');
+tienno = money * (1+ rate*0.01*time);
 document.write('Tong so tien no ngan hang: ' + tienno);
